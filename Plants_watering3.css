@@ -5,7 +5,7 @@
 body{
     height:auto;
     /* background: rgb(224, 224, 224); */
-    background-color: #E5E5E5;
+    background-color: #e4ecf5;
     display: flex;
     flex-wrap: wrap;
 }
@@ -15,10 +15,14 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 10px;
     text-align:center;
     font-family:fantasy;
     border-radius: 5%;
+    /* margin-bottom: 50px; */
+}
+.content2{
+    margin-left: 0px;
 }
 .content3 img{
     width:30px;
@@ -34,8 +38,10 @@ body{
     line-height:100px;
     border-radius: 5%;
     font-family:sans-serif;
-    background: #ffffff;
-    box-shadow: 10px 10px 10px 10px grey;
+    /* background: #ffffff; */
+    background: #e4ecf5;
+    /* box-shadow: 3px 3px 3px 3px grey; */
+    box-shadow: -10px -10px 20px 3px #fcfcfc,10px 10px 20px 3px #c9cfd6;
 }
 .b{
     margin-left: 0px;
@@ -52,10 +58,10 @@ body{
     height:260px;
     margin-top: 440px;
     margin-left: 10px;
-    background-color: #ffffff;
+    background: #e4ecf5;
     justify-content:space-between;
     font-size: 28px;
-    box-shadow: 7px 7px 7px 7px grey;
+    box-shadow: -10px -10px 20px 3px #fcfcfc,10px 10px 20px 3px #c9cfd6;
 }
 #temp1,#humi1,#ligh1,#soli1{
     height:250px;
@@ -85,23 +91,21 @@ body{
 #soli2{
     color: rgb(57, 190, 40);
 }
+.name{
+    position: absolute;
+    left: 1090px;
+    top: 735px;
+    box-shadow: -10px -10px 20px 3px #fcfcfc,10px 10px 20px 3px #c9cfd6;
+}
+/* #img1{
+    position: absolute;
+    left: 80px;
+    top:340px;
+    width: 125px;
+    height:100px;
+    z-index: -1;
+}
 
-#img1{
-    position: absolute;
-    left: 80px;
-    top:340px;
-    width: 125px;
-    height:100px;
-    z-index: -1;
-}
-#img1{
-    position: absolute;
-    left: 80px;
-    top:340px;
-    width: 125px;
-    height:100px;
-    z-index: -1;
-}
 #img2{
     position: absolute;
     left: 900px;
@@ -125,7 +129,7 @@ body{
     width: 80px;
     height:80px;
     z-index: -1;
-}
+} */
 #img5{
     position: absolute;
     left: 100px;
@@ -134,7 +138,7 @@ body{
     height:50px;
     z-index: -1;
 }
-#img6{
+/* #img6{
     position: absolute;
     left: 1360px;
     top:690px;
@@ -149,4 +153,4 @@ body{
     width: 75px;
     height:80px;
     z-index: -1;
-}
+} */

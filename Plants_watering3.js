@@ -85,6 +85,7 @@ function load1(){
                     ctx1.lineTo(30,20);
                     ctx1.moveTo(30,130);
                     ctx1.lineTo(210,130);
+                    ctx1.strokeStyle = "#d34949";
                     ctx1.closePath();
                     ctx1.stroke();
     
