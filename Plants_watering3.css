@@ -52,7 +52,7 @@ body{
 }
 .content3{
     height:260px;
-    margin-top: 440px;
+    margin-top: 380px;
     margin-left: 10px;
     background: #e4ecf5;
     justify-content:space-between;
@@ -89,8 +89,8 @@ body{
 }
 .name{
     position: absolute;
-    left: 1090px;
-    top: 735px;
+    left: 1020px;
+    top: 690px;
     box-shadow: -10px -10px 20px 3px #fcfcfc,10px 10px 20px 3px #c9cfd6;
 }
 /* #img1{
